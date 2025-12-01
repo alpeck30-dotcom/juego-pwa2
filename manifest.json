@@ -1,10 +1,13 @@
 {
   "name": "SkyTap",
   "short_name": "SkyTap",
-  "start_url": "./index.html",
+  "start_url": "/juego-pwa2/index.html",
+  "id": "/juego-pwa2/index.html",
   "display": "standalone",
   "background_color": "#000000",
-  "theme_color": "#00ffea",
+  "theme_color": "#00f5e5",
+  "orientation": "portrait-primary",
+
   "icons": [
     {
       "src": "assets/icon-192.png",
@@ -15,6 +18,15 @@
       "src": "assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "assets/screen1.png",
+      "sizes": "512x1024",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ]
 }
